@@ -359,24 +359,6 @@ https://cardiopredict-ai-0jet.onrender.com
 git clone https://github.com/Aswini-Dileep/CardioPredict-AI.git
 ```
 
-## Navigate to Project Folder
-
-```bash
-cd CardioPredict-AI
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run Flask App
-
-```bash
-python app.py
-```
-
 ---
 
 
@@ -425,7 +407,7 @@ Always consult a qualified healthcare professional.
 
 ---
 
-🏁 Conclusion
+## 🏁 Conclusion
 
 CardioPredict AI demonstrates a complete end-to-end machine learning pipeline from data analysis to real-world deployment.
 
@@ -446,6 +428,7 @@ This system highlights how AI can support early disease detection and healthcare
 
 ### Aswini Dileep
 
+* Email: aswinidileep91@gmail.com
 * GitHub: [https://github.com/Aswini-Dileep](https://github.com/Aswini-Dileep)
 * LinkedIn: www.linkedin.com/in/aswini-dileep
 
