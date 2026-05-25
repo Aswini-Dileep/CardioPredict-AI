@@ -425,12 +425,29 @@ Always consult a qualified healthcare professional.
 
 ---
 
+🏁 Conclusion
+
+CardioPredict AI demonstrates a complete end-to-end machine learning pipeline from data analysis to real-world deployment.
+
+The project successfully combines:
+
+Machine Learning
+Explainable AI
+Healthcare analytics
+AI chatbot integration
+Modern web development
+Cloud deployment
+
+This system highlights how AI can support early disease detection and healthcare decision support systems.
+
+---
+
 ## 👨‍💻 Author
 
 ### Aswini Dileep
 
 * GitHub: [https://github.com/Aswini-Dileep](https://github.com/Aswini-Dileep)
-* LinkedIn: Add Your LinkedIn URL
+* LinkedIn: www.linkedin.com/in/aswini-dileep
 
 ---
 
