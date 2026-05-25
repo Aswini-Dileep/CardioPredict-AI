@@ -413,12 +413,12 @@ CardioPredict AI demonstrates a complete end-to-end machine learning pipeline fr
 
 The project successfully combines:
 
-Machine Learning
-Explainable AI
-Healthcare analytics
-AI chatbot integration
-Modern web development
-Cloud deployment
+* Machine Learning
+* Explainable AI
+* Healthcare analytics
+* AI chatbot integration
+* Modern web development
+* Cloud deployment
 
 This system highlights how AI can support early disease detection and healthcare decision support systems.
 
