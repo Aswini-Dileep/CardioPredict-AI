@@ -2,9 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 import shap
-#from mistralai import Mistral
-from mistralai.client import MistralClient
-from mistralai.models.chat_completion import ChatMessage
+from mistralai import Mistral
 from dotenv import load_dotenv
 import os
 
@@ -24,7 +22,7 @@ model = pickle.load(open("heart_disease_model.pkl", "rb"))
 
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 
-client = MistralClient(api_key=MISTRAL_API_KEY)
+client = Mistral(api_key=MISTRAL_API_KEY)
 
 @app.route("/", methods=["GET", "POST"])
 def home():
@@ -202,26 +200,23 @@ def chat():
 
         user_message = request.form["message"]
 
-        response = client.chat(
+        response = client.chat.complete(
 
             model="mistral-small-latest",
 
             messages=[
-
-                ChatMessage(
-                    role="system",
-                    content=(
+                {
+                    "role": "system",
+                    "content": (
                         "You are a professional AI healthcare assistant. "
                         "Give simple, educational, and safe answers "
                         "about heart health."
                     )
-                ),
-
-                ChatMessage(
-                    role="user",
-                    content=user_message
-                )
-
+                },
+                {
+                    "role": "user",
+                    "content": user_message
+                }
             ]
         )
 
@@ -237,6 +232,6 @@ def chat():
             "reply": f"Error: {str(e)}"
         }
     
-    
+
 if __name__ == "__main__":
     app.run(debug=True)
