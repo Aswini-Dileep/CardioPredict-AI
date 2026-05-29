@@ -12,7 +12,7 @@ https://cardiopredict-ai-0jet.onrender.com
 📂 **GitHub Repository:**  
 https://github.com/Aswini-Dileep/CardioPredict-AI
 
-📂 **Colab Notebook:**
+📂 **Colab Notebook:**  
 https://github.com/Aswini-Dileep/CardioPredict-AI/blob/main/Heart_Disease_Prediction.ipynb
 
 --- 
