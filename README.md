@@ -233,22 +233,27 @@ This improves trust and interpretability of machine learning predictions.
 # 📸 Project Screenshots
 
 ## 🏠 Home Page
-(Add Screenshot Here)
+
+<img width="1330" height="623" alt="image" src="https://github.com/user-attachments/assets/d55cfd0c-8824-4236-9e39-6e7d683f1911" />
 
 ---
 
 ## 📊 Prediction Result
-(Add Screenshot Here)
+
+<img width="1237" height="623" alt="image" src="https://github.com/user-attachments/assets/cda8fbaa-e683-44bc-82e9-790386431283" />
+<img width="953" height="482" alt="image" src="https://github.com/user-attachments/assets/b7424679-fd74-4078-bb62-ba0013a92784" />
 
 ---
 
 ## 🧠 SHAP Explainability
-(Add Screenshot Here)
+
+<img width="986" height="632" alt="image" src="https://github.com/user-attachments/assets/35227651-879b-4827-bfa4-626ace13d6cb" />
 
 ---
 
 ## 🤖 AI Healthcare Assistant
-(Add Screenshot Here)
+<img width="398" height="602" alt="image" src="https://github.com/user-attachments/assets/f53f9fc5-f8b6-4767-81d0-1d164287306d" />
+
 
 ---
 
